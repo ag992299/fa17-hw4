@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Cat.delete_all
+cat1 = Cat.create!(:name => "furball")
+
+Todo.delete_all
+task1 = Todo.create!(:tasks => "lets go home")
